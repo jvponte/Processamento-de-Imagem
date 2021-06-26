@@ -21,7 +21,8 @@ Além disso, será recebida também a imagem a ser colocada no fundo. Essa image
 <img src="https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3071527:1618093643/Praia.jpg?f=16x9&h=720&q=0.8&w=1280&$p$f$h$q$w=aa52200" width=300>
 <img src="https://super.abril.com.br/wp-content/uploads/2018/04/bibliotecas.png" width=300>
 
-## Passos a serem realizados
+## Passos a serem realizados 
+
 1- Transformar a imagem da pessoa de RGB (Red-Green-Blue) para HSV (Hue-Saturation-Value) e, a partir disso, utilizar apenas a dimensão Value (V) do HSV, que não leva em conta a matiz ou saturação das cores da imagem, correspondendo simplesmente a imagem em preto em branco.
 
 ![image](https://user-images.githubusercontent.com/26654694/123513753-3427da00-d665-11eb-89a4-504e36839a54.png)
@@ -48,10 +49,12 @@ Em resumo, esse será o pipeline de processamento a ser seguido pelo projeto:
 
 ![image](https://user-images.githubusercontent.com/26654694/123515502-085d2200-d66e-11eb-880f-64cb1afa14d3.png)
 
+Obs: as imagens mostradas nesse passo a passo foram feitas com ajuda de um programa de edição de imagens, e não do código. Os resutados obtidos até o momento estão no notebook do repositório.
+
 ## Códigos iniciais
 
 Já foram feitos testes que contemplam todas as etapas descritas acima, com as imagens de entrada mostradas como exemplo. O notebok com os código e resultados, bem como as imagens, foram adicionadas ao repositório. 
 
 Entretanto, houve uma maior dificuldade no passo 2, na aplicação do filtro LoG para detecção de bordas. Para continuar o desenvolvimento e testes dos passos seguintes, esse passo foi simulado em um programa externo de edição de imagens, gerando as imagens com as bordas já demarcadas. No repositório, essas imagens estão identificadas pelo sufixo '_filt'.
 
-O restante dos passos foram realizados e foram obtidos resultados satisfatórios, mostrados no próprio notebook. Entretanto, ainda há espaço para melhorias, como a citada na descrição do passo 3 para solucionar o problema de regiões côncavas. Esse problema pode ser observado nos casos de teste 2 e 3, no fim do notebook.
+O restante dos passos foram realizados e foram obtidos resultados satisfatórios, mostrados no próprio notebook. Entretanto, ainda há espaço para melhorias, como a citada na descrição do passo 3 para solucionar o problema de regiões côncavas. Esse problema pode ser observado nos casos de teste 2 e 3, no fim do notebook. Também podem ser estudadas formas de reduzir as bordas deixadas pela máscara na silhueta da pessoa.
