@@ -5,9 +5,9 @@
 O objetivo do projeto é trocar o fundo da imagem de uma pessoa, recortanto sua silhueta, removendo o restante da imagem e substituindo o fundo por alguma outra imagem.
 
 ## Imagens de entrada
-Uma das imagens de entrada será a imagem de uma pessoa em fundo relativamente simples (paredes, fundos coloridos, sem texturas complexas), posicionada no centro da imagem. Como é um tipo de imagem relativamente comum e fácil de ser encontrado, serão obtidas fotos da internet que se encaixam nesse padrão e, se necessário, também do dataset [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html).
+Uma das imagens de entrada será a imagem de uma pessoa em fundo relativamente simples (paredes, fundos coloridos, sem texturas complexas), posicionada no centro da imagem. Como é um tipo de imagem relativamente comum e fácil de ser encontrado, serão obtidas fotos da internet (Google Images) que se encaixam nesse padrão e, se necessário, também do dataset [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html).
 
-Além disso, será recebida também a imagem a ser colocada no fundo. Essa imagem, entretanto, não precisa ter nenhuma restrição. Serão obtidas, na internet, imagens que fazem sentido para serem o fundo de imagens de pessoas.
+Além disso, será recebida também a imagem a ser colocada no fundo. Essa imagem, entretanto, não precisa ter nenhuma restrição. Serão obtidas, também no Google Images, imagens que fazem sentido para serem o fundo de imagens de pessoas.
 
 ### Exemplos de fotos de input (pessoas):
 
