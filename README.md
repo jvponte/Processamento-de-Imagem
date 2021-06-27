@@ -55,6 +55,6 @@ Obs: as imagens mostradas nesse passo a passo foram feitas com ajuda de um progr
 
 Já foram feitos testes que contemplam todas as etapas descritas acima, com as imagens de entrada mostradas como exemplo. O notebok com os código e resultados, bem como as imagens, foram adicionadas ao repositório. 
 
-Entretanto, houve uma maior dificuldade no passo 2, na aplicação do filtro LoG para detecção de bordas. Para continuar o desenvolvimento e testes dos passos seguintes, esse passo foi simulado em um programa externo de edição de imagens, gerando as imagens com as bordas já demarcadas. No repositório, essas imagens estão identificadas pelo sufixo '_filt'.
+Entretanto, houve uma maior dificuldade no passo 2, na aplicação do filtro LoG para detecção de bordas e os testes com diferentes tamanhos de filtros e valores de desvio padrão não tiveram resultados satisfatórios até então. Para continuar o desenvolvimento e testes dos passos seguintes, esse passo foi simulado em um programa externo de edição de imagens, gerando as imagens com as bordas já demarcadas. No repositório, essas imagens estão identificadas pelo sufixo '_filt'.
 
 O restante dos passos foram realizados e foram obtidos resultados satisfatórios, mostrados no próprio notebook. Entretanto, ainda há espaço para melhorias, como a citada na descrição do passo 3 para solucionar o problema de regiões côncavas. Esse problema pode ser observado nos casos de teste 2 e 3, no fim do notebook. Também podem ser estudadas formas de reduzir as bordas deixadas pela máscara na silhueta da pessoa.
